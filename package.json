@@ -1,0 +1,14 @@
+{
+  "name": "klingnum",
+  "version": "1.0.0",
+  "description": "Converts a number (integer) to Klingon (text)",
+  "main": "index.js",
+  "repository": "mcvenco/klingnum",
+  "keywords": [
+    "Klingon",
+    "converter",
+    "integer"
+  ],
+  "author": "Eric Vonk",
+  "license": "MIT"
+}
