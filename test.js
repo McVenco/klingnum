@@ -11,8 +11,6 @@ function klingNum(num){
         numArray = num.toString().split(''),
         numbers, multipliers, chunk;
 
-    console.log(numArray);
-
     // numbers 0-9
     numbers = ["pagh", "wa'", "cha'", "wej", "loS", "vagh", "jav", "Soch", "chorgh", "Hut"];
 
@@ -27,16 +25,12 @@ function klingNum(num){
     }
 
     for (var i = 0; i < numArray.length; i++) {
-        chunk.push(numbers[numArray[i]] + multipliers[i]);
-        console.log(string[i] + ' heeft als multiplier: ' + multipliers[i]);
+        chunk.push(numbers[numArray[i]] + multipliers[numArray.length - 1 - i]);
     }
 
-    console.log(chunk.join(' '));
+    return chunk.join(' ');
 };
 
-// console.log(klingNum(0));
-// console.log(klingNum(1));
-console.log('klingNum: ' + klingNum(751751));
-// console.log(klingNum(12));
-// console.log('klingNum: ' + klingNum(123));
-// console.log(klingNum(1234));
+console.log(klingNum(0));
+console.log(klingNum(1));
+console.log(klingNum(751751));
