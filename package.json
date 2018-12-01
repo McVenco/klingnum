@@ -2,6 +2,8 @@
   "name": "klingnum",
   "version": "1.0.0",
   "description": "Converts a number (integer) to Klingon (text)",
+  "homepage": "https://github.com/McVenco/klingnum",
+  "author": "Eric Vonk (https://github.com/McVenco/)",
   "main": "index.js",
   "repository": "mcvenco/klingnum",
   "keywords": [
@@ -9,6 +11,5 @@
     "converter",
     "number"
   ],
-  "author": "Eric Vonk",
   "license": "MIT"
 }

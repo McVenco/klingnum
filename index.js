@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = (num) => {
     if (typeof num !== 'number') {
         throw new TypeError('klingNum needs a number as input!');
@@ -22,7 +24,7 @@ module.exports = (num) => {
         return numbers[0];
     }
 
-    for (var i = 0; i < numArray.length; i++) {
+    for (let i = 0; i < numArray.length; i++) {
         klingText.push(numbers[numArray[i]] + multipliers[numArray.length - 1 - i]);
     }
 
