@@ -8,7 +8,7 @@
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm install --save klingnum
+$ npm i klingnum
 ```
 
 ## Usage
