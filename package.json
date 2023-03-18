@@ -1,6 +1,6 @@
 {
   "name": "klingnum",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Converts a number (integer) to Klingon (text)",
   "homepage": "https://github.com/McVenco/klingnum",
   "author": "Eric Vonk (https://github.com/McVenco/)",
